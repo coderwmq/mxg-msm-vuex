@@ -5,7 +5,7 @@ module.exports = {
     port: 8888,/* 端口号 如果端口号被占用，会自动提升1 */
     host: 'localhost',/* 主机名 127.0.0.1 真机 0.0.0.0 */
     https: false,/* 协议 */
-    open: true,/* 启动服务时自动打开浏览器访问噢 */
+    open: true,/* 启动服务时自动打开浏览器访问 变好 */
     proxy: {//开发环境代理配置 用于解决跨域问题  同源策略：是指协议，域名和端口都要相同，其中有一个不同就会产生跨域     
       [process.env.VUE_APP_BASE_API]: {// '/dev-api': {//请求前缀 /dev-api
         target: process.env.VUE_APP_SERVICE_URL,// 目标服务器地址,代理访问 https://mock.mengxuegu.com/mock/617e51f6b17b351d1beab4fc
